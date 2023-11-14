@@ -40,7 +40,7 @@ function getRange(arr){
 function getEvens(arr){
     evens = [];
     for(let i=0; i < getLength(arr); i=i+1){
-        if(arr[i] % 2 === 1){
+        if(arr[i] % 2 === 0){
             evens.push(arr[i])
         }
     }
@@ -50,7 +50,7 @@ function getEvens(arr){
 function getOdds(arr){
     odds = [];
     for(let i=0; i < getLength(arr); i=i+1){
-        if(arr[i] % 2 === 0){
+        if(arr[i] % 2 === 1){
             odds.push(arr[i])
         }
     }
